@@ -19,14 +19,14 @@ BOT_TOKEN = environ.get('BOT_TOKEN', '7079176157:AAFV9k8510qE6ANV200QVysls9S-et7
 
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1876329759').split()]
 USERNAME = environ.get('USERNAME', "https://telegram.me/triggeredsoul_07ded")
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002040878546'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002197099470'))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/WerbackA2Z')
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002166283591').split()]
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Bisal:Bisal123@bisal.qt3ma.mongodb.net/?retryWrites=true&w=majority&appName=Bisal")
 
 DATABASE_NAME = environ.get('DATABASE_NAME', "TELEGRAM_BOT_INFO")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
-LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002040878546'))
+LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002197099470'))
 QR_CODE = environ.get('QR_CODE', 'abhijeetgodiyal@oksbi')
 START_IMG = environ.get('START_IMG', 'https://graph.org/file/e4b2b1c88153071e54841.jpg')
 BIN_CHANNEL = int(environ.get('BIN_CHANNEL','-1002031180571'))
@@ -35,7 +35,7 @@ URL = environ.get('URL', 'mytestbot-jvdfhbj.com')
 STICKERS_IDS = ('CAACAgQAAxkBAAEK99dlfC7LDqnuwtGRkIoacot_dGC4zQACbg8AAuHqsVDaMQeY6CcRojME').split()
 FILE_AUTO_DEL_TIMER = int(environ.get('FILE_AUTO_DEL_TIMER', '600'))
 IS_VERIFY = is_enabled('IS_VERIFY', True)
-LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1002040878546'))
+LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1002197099470'))
 TUTORIAL = environ.get("TUTORIAL", "https://t.me/WerbackA2Z/3141")
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg")
 SHORTENER_API = environ.get("SHORTENER_API", "131ed9821ad131031c22b72f261d9ea7a7228554")
